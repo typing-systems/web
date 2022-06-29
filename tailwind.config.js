@@ -4,7 +4,14 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'mesh': "url('/public/grad.png')",
+      }
+    },
+    fontFamily: {
+      'montserrat': ['Montserrat', 'sans-serif'],
+    },
   },
   plugins: [],
 }
